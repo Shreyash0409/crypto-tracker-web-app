@@ -27,6 +27,7 @@ const Footer = () => {
             <a
               href="https://www.coingecko.com/en/api#explore-api"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               Coin geeko Apis
@@ -34,7 +35,7 @@ const Footer = () => {
           </p>
           <p>CSS Modules</p>
           <p>
-            <a href="https://www.chartjs.org/" target="_blank">
+            <a href="https://www.chartjs.org/" target="_blank" rel="noreferrer">
               Chart js
             </a>
           </p>
@@ -49,12 +50,17 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/shreyash-shrivastava-018431190/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-linkedin-in"></i> <span>Linkedin</span>
           </a>
         </p>
         <p>
-          <a href="https://github.com/Shreyash0409" target="_blank">
+          <a
+            href="https://github.com/Shreyash0409"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fab fa-github"></i>
             <span>Github</span>
           </a>

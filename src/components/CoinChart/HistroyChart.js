@@ -43,6 +43,7 @@ const HistoryChart = () => {
           ...historyOptions,
         },
       });
+      console.log(chartInstance);
     }
     return () => {
       return {

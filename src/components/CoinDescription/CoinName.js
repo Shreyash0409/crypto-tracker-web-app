@@ -9,7 +9,7 @@ const CoinName = () => {
   console.log(image, symbol, name);
 
   return (
-    <Card >
+    <Card>
       <div className="cName">
         <div className="aligned author">
           <img className="ui avatar image" src={image} alt={`${name}`} />
@@ -22,6 +22,7 @@ const CoinName = () => {
           <img
             className="ui  avatar image"
             src="https://s2.coinmarketcap.com/static/cloud/img/fiat-flags/INR.svg"
+            alt="INDIA"
           />
           <span className="distance">INR</span>
           <div className=" text aligned header">Indian Rupees</div>
