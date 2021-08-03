@@ -1,0 +1,14 @@
+.Detail__Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 1043px) {
+  .Detail__Container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+}

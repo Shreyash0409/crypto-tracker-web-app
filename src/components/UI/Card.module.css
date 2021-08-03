@@ -1,0 +1,23 @@
+.card {
+  /* display: flex;
+  align-items:center;
+  justify-content: center; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  width: 28vw;
+  height: 100%;
+  border: 1px solid #eff2f5;
+  line-height: 1.3rem;
+  margin-bottom: 3rem;
+}
+.card:hover,
+.card:active {
+  transform: scale(1.01);
+}
+@media (max-width: 1043px) {
+  .card {
+    width: 80vw;
+    margin: 0px 75px 50px;
+  }
+}

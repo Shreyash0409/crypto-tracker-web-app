@@ -1,0 +1,7 @@
+.coin-data-show {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 6rem 3rem;
+}

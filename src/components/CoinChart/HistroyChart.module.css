@@ -1,0 +1,57 @@
+.Chart__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  width: 62vw;
+  height: 75vh;
+  margin: 80px 0 40px 35px;
+  box-shadow: rgba(50, 50, 93, 0.15) 0px 50px 100px -20px,
+    rgba(0, 0, 10, 0.25) 0px 30px 60px -30px;
+  padding: 20px;
+  border-radius: 12px;
+}
+.Chart__container:hover {
+  transform: scale(1.01);
+}
+.Chart__Btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-left: 5px;
+}
+
+.Chart__Btn > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(0, 185, 114);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 14px 28px,
+    rgba(0, 0, 0, 0.15) 0px 10px 10px;
+  cursor: pointer;
+}
+
+.Chart__Btn > button:hover,
+.Chart__Btn > button:active {
+  background-color: rgb(3, 221, 138);
+  transform: scale(1.01);
+}
+@media (max-width: 1043px) {
+  .Chart__container {
+    height: 40vh;
+    width: 80vw;
+    margin: 90px 75px 40px;
+  }
+  .Chart__Btn {
+    margin-left: 10rem;
+  }
+  .Chart__Btn > button {
+    margin-left: 20px;
+  }
+}

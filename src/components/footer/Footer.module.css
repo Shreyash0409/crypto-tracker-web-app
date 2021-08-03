@@ -1,0 +1,82 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #191a2a;
+  color: #ffffff;
+  min-height: 35vh;
+  padding: 2rem;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.description {
+  max-width: 30%;
+  margin-left: -5%;
+}
+.technology {
+  font-family: Montserrat;
+}
+span {
+  padding: 5px;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+@media (min-width: 400px) and (max-width: 1043px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    margin-left: 0%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .technology {
+    margin-top: 5%;
+    text-align: center;
+  }
+  .technology .tech-list {
+    display: flex;
+    justify-content: stretch;
+  }
+  .tech-list p {
+    margin: 0.5rem;
+  }
+  .connect {
+    margin-top: 3%;
+    text-align: center;
+  }
+  .connect h3 {
+    margin-top: -3%;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    margin-left: 0%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .technology {
+    margin-top: 7%;
+    text-align: center;
+  }
+  .tech-list p {
+    line-height: 12px;
+  }
+  .connect {
+    margin-top: 8%;
+    text-align: center;
+  }
+  .connect h3 {
+    margin-top: -3%;
+  }
+}

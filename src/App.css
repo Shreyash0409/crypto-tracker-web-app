@@ -1,0 +1,24 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@450&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.ui.menu.fixed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding-left: 5rem;
+}
+@media (max-width: 1043px) {
+  .ui.menu.fixed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+}
