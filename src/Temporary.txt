@@ -1,1 +1,0 @@
-This is the temporary file that I have created just to check the git commands and github repository.
