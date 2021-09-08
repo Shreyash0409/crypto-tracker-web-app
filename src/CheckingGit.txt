@@ -1,1 +1,0 @@
-This is the file I created for practicing the git with different branches and also for merge one branch to the other branch
